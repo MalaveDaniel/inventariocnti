@@ -1,0 +1,2112 @@
+html,
+body {
+    height: 100%;
+   /* background-image: url(fondo.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;*/
+}
+
+.site-index{
+  margin: 0px;
+  padding: 0;
+  background: url(.png) no-repeat center center fixed; 
+  background-size: cover;
+  width: 100%;
+  height: 88%;
+  margin-top: -20px;
+  margin-left: -70px;
+  position: absolute;
+
+}
+/*.background-login {
+  margin: 100px;
+  padding: 0;
+  background: url(fondo.png) no-repeat center center fixed; 
+  background-size: cover;
+  width: 100%;
+  height: 775px;
+  margin-top: -20px;
+  margin-left: -70px;
+  position: absolute;
+
+
+}*/
+
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #4249a9;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.navbar-inverse.navbar-fixed-top.navbar
+{
+    background-color: rgb(26, 120, 191);
+}
+.navbar-inverse.navbar-fixed-top.navbar
+{
+    background-color: rgb(26, 120, 191);
+}
+.navbar-nav.navbar-right > li > a{
+    color: white;
+}
+
+.dropdown.open.dropdown-toggle:active {
+    background-color: #1a78bf;
+}
+
+
+#w0.active {
+    background-color: #1a78bf;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color:#999;
+    background-color: #115e99;
+}
+
+.btn.btn-link.logout{
+    color: white;
+}
+
+.footer {
+    background-color: rgb(26, 120, 191);
+    color: white;
+}
+
+.navbar-header.navbar-brand {
+    color:white;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #4244a9;
+}
+
+.site-signup {
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.site-signup .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.static-page {
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; 
+
+}
+
+
+
+/*.static-page .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+   
+}*/
+
+.site-request-password-reset {
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.site-request-password-reset .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+
+.representante-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+.representante-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.representante-form {
+    margin-left: 20rem;
+    width: 60%;
+}
+
+
+.lineas-investigacion-create   {
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.participantes-create {
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 10%;
+
+}
+
+
+
+
+.participantes-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+/*
+Ediciones de estilo Marco
+Inicio
+
+*/
+/*
+Todas las ediciones de la pantalla administrativa empresa
+
+*/
+.empresa-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.empresa-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.empresa-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.empresa-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.empresa-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.empresa-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+ .empresa-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.empresa-view .table.table-striped.table-bordered.detail-view{
+
+width: 200px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+/*
+Todas las ediciones de la pantalla administrativa area
+
+*/
+.area-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.area-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.area-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.area-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.area-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.area-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+ .area-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.area-view .table.table-striped.table-bordered.detail-view{
+
+width: 200px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+ /*
+Todas las ediciones de la pantalla administrativa ciudades
+
+*/
+.ciudades-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.ciudades-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.ciudades-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.ciudades-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.ciudades-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.ciudades-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+ .ciudades-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.ciudades-view .table.table-striped.table-bordered.detail-view{
+
+width: 200px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+
+ /*
+Todas las ediciones de la pantalla administrativa especialidades
+
+*/
+.especialidad-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.especialidad-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.especialidad-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.especialidad-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.especialidad-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.especialidad-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+ .especialidad-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.especialidad-view .table.table-striped.table-bordered.detail-view{
+
+width: 200px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+ /*
+Todas las ediciones de la pantalla administrativa estado civil
+
+*/
+.estado-civil-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.estado-civil-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.estado-civil-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.estado-civil-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.estado-civil-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.estado-civil-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+ .estado-civil-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.estado-civil-view .table.table-striped.table-bordered.detail-view{
+
+width: 200px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+ /*
+Todas las ediciones de la pantalla administrativa estado propuesta
+
+*/
+.estado-propuesta-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.estado-propuesta-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.estado-propuesta-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.estado-propuesta-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.estado-propuesta-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.estado-propuesta-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+ .estado-propuesta-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.estado-propuesta-view .table.table-striped.table-bordered.detail-view{
+
+width: 200px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+ /*
+Todas las ediciones de la pantalla administrativa fuente financiera
+
+*/
+.fuente-financiera-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.fuente-financiera-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.fuente-financiera-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.fuente-financiera-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.fuente-financiera-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.fuente-financiera .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.fuente-financiera-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.fuente-financiera-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+ /*
+Todas las ediciones de la pantalla administrativa genero
+
+*/
+.genero-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.genero-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.genero-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.genero-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.genero-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.genero .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.genero-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.genero-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+/*
+Todas las ediciones de la pantalla administrativa lineas investigacion
+
+*/
+.lineas-investigacion-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.lineas-investigacion-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.lineas-investigacion-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.lineas-investigacion-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.lineas-investigacion-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.lineas-investigacion .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.lineas-investigacion-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.lineas-investigacion-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+/*
+Todas las ediciones de la pantalla administrativa lineas presidenciales
+
+*/
+.lineas-presidenciales-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.lineas-presidenciales-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.lineas-presidenciales-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.lineas-presidenciales-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.lineas-presidenciales-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.lineas-presidenciales .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.lineas-presidenciales-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.lineas-presidenciales-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+/*
+Todas las ediciones de la pantalla administrativa modalidad
+
+*/
+.modalidad-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.modalidad-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.modalidad-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.modalidad-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.modalidad-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.modalidad .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.modalidad-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.modalidad-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+/*
+Todas las ediciones de la pantalla administrativa motores
+
+*/
+.motores-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.motores-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.motores-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.motores-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.motores-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.motores .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.motores-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.motores-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+/*
+Todas las ediciones de la pantalla administrativa municipios
+
+*/
+.municipios-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.municipios-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.municipios-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.municipios-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.municipios-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.municipios-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.municipios-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.municipios-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+
+/*
+Todas las ediciones de la pantalla administrativa persona
+
+*/
+.parroquias-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.parroquias-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.parroquias-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.parroquias-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.parroquias-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.parroquias-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.parroquias-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.parroquias-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+
+
+/*
+Todas las ediciones de la pantalla administrativa sub-area
+
+*/
+.sub-area-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.sub-area-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.sub-area-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.sub-area-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.sub-area-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.sub-area-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.sub-area-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.sub-area-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+
+/*
+Todas las ediciones de la pantalla administrativa tipo-proyecto
+
+*/
+.tipo-proyecto-create{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+
+.tipo-proyecto-form{
+background-color:#EAE5E4;
+text-align:left;
+border-radius: 10px;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:20px;
+padding-left:20px;
+padding-top:10px;
+padding-right:20px;
+
+}
+
+.form-group .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+}
+
+.tipo-proyecto-update{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+}
+.tipo-proyecto-index .btn.btn-success{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.tipo-proyecto-view{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    border-style: groove;
+    margin-top:250px;
+    margin-left:300px;
+    margin-bottom:250px;
+    margin-right:300px;
+    background-color:#C8C2C8; 
+    background-clip: padding-box;
+    border-color:#C8C2C8;
+    border-radius: 15px;
+
+
+}
+
+
+.tipo-proyecto-view .btn.btn-primary{
+
+background-color: #008CBA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+
+.tipo-proyecto-view .btn.btn-danger{
+
+background-color: #E54E4EA;
+border-radius: 12px;
+text-align: center;
+width: 150px;
+
+}
+.tipo-proyecto-view .table.table-striped.table-bordered.detail-view{
+width: 200px;
+margin-left: 40px;
+margin-right:40px;
+margin-bottom:20px;
+}
+ 
+
+/*
+Ediciones de estilo Marco
+Fin
+
+*/
+
+
+
+@media only screen and (max-width: 767px) {
+
+ /*   .background-login {
+            margin: 100px;
+          padding: 0;
+          background: url(fndo.png) no-repeat center center fixed; 
+          background-size: cover;
+          width: 100%;
+          height: 775px;
+          margin-top: -20px;
+          margin-left: -70px;
+          position: absolute;
+    }*/
+    #login-first{
+      width: 100%;
+      height: 50rem;   
+      justify-content: center;
+      
+    }
+    #imagen-convocatoria{
+       display: none;
+       
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+
+        #login-first{
+            width: 90rem;
+            height: 50rem; 
+            margin-bottom: 20px; 
+            margin-left: 40px;
+       
+        }
+  }
+  @media only screen and (max-width: 1003px) {
+
+    #login-first{
+        width: 80rem;
+        height: auto;    
+    }
+    #imagen-convocatoria{
+       width: 50%;
+     }
+}
